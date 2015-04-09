@@ -71,6 +71,6 @@ int main(int argc, char**argv){
 	
 	decimal_form=convert_to_dec(number,base_from);
 	convert_to_new(decimal_form,base_to);
-	printf("the converted number is the backwards order of the remainders");
+	printf("the converted number is the backwards order of the remainders \n");
 	return 0;
 }
