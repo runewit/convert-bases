@@ -49,7 +49,7 @@ int convert_to_dec(char* number,int base_from){
 	return decimal_number;
 }
 
-void convert_to_new(int number, int base_to){
+void convert_to_new(int number, int base_to){ // Pulls together the converters and gives the answer.
 	int remainders[65], n, m, p, d, dividingstuff;
 	char final_num[65];
 	for(d=0;d<=64;d++){
@@ -70,7 +70,7 @@ void convert_to_new(int number, int base_to){
 	};
 }
 
-int main(int argc, char**argv){
+int main(int argc, char**argv){ // Interface for interaction
 	char number[65]; 
 	int base_from, base_to, decimal_form;
 	
